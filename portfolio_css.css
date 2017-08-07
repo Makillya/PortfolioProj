@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 10pt;
+  text-align: justify;
+  padding: 10px;
+}
+
+#purp-wrapper{
+  height: 900px;
+  width: 970px;
+  background: radial-gradient(rgb(112, 89, 99), rgb(28, 11, 15));}
+
+#header{
+
+  background-color: rgb(248, 248, 248);
+  width: 950px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#header h1{
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+#header-text{
+  display: inline-block;
+  text-align: right;
+  font-size: 14pt;
+  padding-left: 450px;
+}
+
+#port-about{
+  height: 300px;
+  width: 1000px;
+}
+
+#portrait{
+  height: 270px;
+  width: 450px;
+  border-width: medium;
+  border-color: rgb(194, 194, 194);
+  border-style: solid;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#about{
+  background: linear-gradient(to right, rgb(255, 255, 255) , rgb(219, 203, 216));
+  height: 275px;
+  width: 450px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#about-top{
+  width: 446px;
+  background: linear-gradient(rgb(180, 180, 183), rgb(135, 132, 147), rgb(180, 180, 183));
+  padding-left: 4px;
+}
+
+#about-top p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 12pt;
+}
+
+#about p{
+  font-size: 11pt;
+}
+
+#about a{
+  padding-left: 10px;
+  color: black;
+  font-size: 11pt;
+  font-family: sans-serif;
+}
+
+#three-projects .project{
+  background: linear-gradient(to right, rgb(255, 255, 255) , rgb(219, 203, 216));
+  height: 552px;
+  width: 294px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#three-projects .projects-text{
+  line-height: 1.2;
+}
+
+.project-top{
+  width: 290px;
+  background: linear-gradient(rgb(180, 180, 183), rgb(135, 132, 147), rgb(180, 180, 183));
+  padding-left: 4px;
+}
+
+.project-top p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 12pt;
+}
+
+.project-image{
+  height: 150px;
+  width: 294px;
+}
+
+.mid-bar{
+  width: 290px;
+  background: linear-gradient(rgb(180, 180, 183), rgb(135, 132, 147), rgb(180, 180, 183));
+  padding-left: 4px;
+}
+
+.mid-bar p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 11pt;
+}
+
+.logo{
+  height: 40px;
+  width: 40px;
+  margin: 7px;
+}
+
+#la-mode{
+  background-color: lavender;
+  height: 1000px;
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#la-mode .projects-text{
+  padding-bottom: 75px;
+}
+
+#la-mode-button{
+  width: 56px;
+  background-color: rgb(56, 125, 99);
+  border-color: rgb(20, 62, 46);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: sans-serif;
+  margin-left: 115px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+#family-contacts{
+  background-color: lavender;
+  height: 1000px;
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#family-contacts .projects-text{
+  padding-bottom: 45px;
+}
+
+#family-contacts-button{
+  width: 100px;
+  background-color: rgb(56, 125, 99);
+  border-color: rgb(20, 62, 46);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: sans-serif;
+  margin-left: 90px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+#five-eleven{
+  background-color: lavender;
+  height: 1000px;
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#five-eleven .projects-text{
+  padding-bottom: 30px;
+}
+
+#five-eleven-button{
+  width: 65px;
+  background-color: rgb(56, 125, 99);
+  border-color: rgb(20, 62, 46);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: sans-serif;
+  margin-left: 110px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+#footer{
+  background-color: rgb(248, 248, 248);
+  height: 65px;
+  width: 970px;
+}
+
+#footer p{
+  padding-left: 370px;
+}
+
+#footer-links-bar{
+  height: 35px;
+  width: 970px;
+  padding-left: 310px;
+}
+
+#footer .footer-logo{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#footer .footer-link{
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
